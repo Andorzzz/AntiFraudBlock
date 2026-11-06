@@ -1,0 +1,11 @@
+id=com.eta.afb
+name=AntiFraudBlock
+version=v2.1
+versionCode=3
+author=eta
+# description 行已移除，由 AndroidManifest 接管
+
+minApiVersion=101
+targetApiVersion=102
+staticScope=true
+autoHotReload=false

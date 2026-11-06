@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中文环境下的名字 -->
+    <string name="app_name">反诈上报阻断</string>
+    <!-- 中文环境下的描述 -->
+    <string name="module_description">阻断手机管家 AI 反诈的事件统计与 DCS 云端上报；本地风险提醒保持原样。</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 英文环境下的名字 -->
+    <string name="app_name">AntiFraudBlock</string>
+    <!-- 英文环境下的描述 -->
+    <string name="module_description">Blocks ColorOS Phone Manager AI anti-fraud telemetry and cloud reporting; keeps local warnings intact.</string>
+</resources>

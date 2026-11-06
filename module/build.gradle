@@ -1,0 +1,44 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.eta.afb'
+    compileSdk 37
+
+    defaultConfig {
+        applicationId "com.eta.afb"
+        minSdk 33
+        targetSdk 37
+        versionCode 3
+        versionName "2.1"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            
+            // 把模块根目录当成资源，以打包 META-INF
+            resources.srcDirs = ['.']
+            
+            // 新版 Gradle 的稳定排错写法
+            resources.exclude 'src/**'
+            resources.exclude 'res/**'
+            resources.exclude 'build/**'
+            resources.exclude '.gradle/**'
+            resources.exclude 'AndroidManifest.xml'
+            resources.exclude 'build.gradle'
+        }
+    }
+}
+
+dependencies {
+    compileOnly files('../libs/libxposed-102.aar')
+}
