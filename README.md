@@ -1,6 +1,6 @@
 # AntiFraudBlock · 反诈上报阻断
 
-> 🚀 **本项目基于 [eta 的 AntiFraudBlock](https://github.com/原作者的用户名/原仓库名) 重构修改。**
+> 🚀 **本项目基于 [eta 的 AntiFraudBlock](https://github.com/yooma1/qufz) 重构修改。**
 > 已适配最新版 OPPO/ColorOS 手机管家，修复了原版拦截失效的问题。请直接前往 **[Releases](../../releases)** 页面下载最新 `.apk`。
 
 一个只做一件事的 LSPosed 模块：**掐断手机管家 AI 反诈的遥测与云端上报，本地风险提醒照常工作。**
